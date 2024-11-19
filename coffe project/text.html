@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+
+.readmore_bt{
+display: flex;}
+
+
+.readmore_bt:hover{
+    display: none;
+}
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  transition: width 0.5s; /* add transition effect for width */
+}
+
+.box:hover {
+height: 200px; /* increase width on hover */
+}
+
+.read-more {
+    margin-left: 44px;
+   margin-top: 100px;
+  display: none; /* hide read more button initially */
+}
+
+.box:hover .read-more {
+  display: block; /* show read more button on hover */
+}
+
+</style>
+<body>
+    <div class="box">
+        <p>This is a sample text.</p>
+        <button class="read-more">Read More</button>
+      </div>
+   
+</body>
+</html>
